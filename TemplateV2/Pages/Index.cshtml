@@ -72,6 +72,44 @@
         #calender img {
             max-width: fit-content !important;
         }
+        .new-box .bg {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+/* Force images to scale fluidly without disappearing or overflowing */
+.new-box .bg img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+@@media only screen and (max-width: 600px) {
+    .new-box {
+        height: auto !important;
+        min-height: 200px;
+        overflow: visible !important;
+    }
+
+    .new-box .bg {
+        position: relative !important;
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+
+    .new-box .bg img {
+        width: 100% !important;
+        height: auto !important;
+        max-height: 250px;
+        object-fit: cover;
+        display: block !important;
+    }
+}
+
     </style>
 </head>
 <body dir="ltr">
@@ -292,7 +330,7 @@
               
                 <div class="col l3 m6 s12">
                     <div class="new-box new-box-text">
-                        <h6 class="head">Loan Management Dashboard</h6>
+                        <h6 class="head">Loan-Management-Dashboard</h6>
                         <small>Loan Management Dashboard</small>
                         <div class="foot">
                             <span class="date-added">
@@ -305,7 +343,7 @@
                 </div>
                 <div class="col l3 m6 s12">
                     <div class="new-box new-box-text">
-                        <div class="Loan Management Dashboard"></div>
+                        <div class="Loan-Management-Dashboard"></div>
                         <div class="bg">
                             <img src="https://static.vecteezy.com/system/resources/previews/045/680/589/non_2x/icon-loan-management-related-to-finance-and-tax-symbol-long-shadow-style-simple-design-illustration-vector.jpg">
                         </div>
@@ -315,27 +353,28 @@
 
 
 
-                <div class="col l3 m6 s12">
-                    <div class="new-box new-box-text">
-                        <h6 class="head">Aesthetic Today Website</h6>
-                        <small>Aesthetic Today Website</small>
-                        <div class="foot">
-                            <span class="date-added">
-                                <b>06,Seb,2019</b>&nbsp;
-                                <i class="fas fa-history"></i>&nbsp;
-                            </span>
-                            <a target="_blank" href="https://aesthetictoday.runasp.net/" class="btn">Read More</a>
-                        </div>
+                            <div class="col l3 m6 s12">
+                <div class="new-box new-box-text">
+                    <h6 class="head">Aesthetic Today Website</h6>
+                    <small>Aesthetic Today Website</small>
+                    <div class="foot">
+                        <span class="date-added">
+                            <b>06,Seb,2019</b>&nbsp;
+                            <i class="fas fa-history"></i>&nbsp;
+                        </span>
+                        <a target="_blank" href="https://aesthetictoday.runasp.net/" class="btn">Read More</a>
                     </div>
                 </div>
-                <div class="col l3 m6 s12">
-                    <div class="new-box new-box-text">
-                        <div class="Aesthetic Today Website"></div>
-                        <div class="bg">
-                            <img src="https://storage.googleapis.com/atoday-cdn/uploads/media/06/30/Nnk0ekNmams4Z2hv.png">
-                        </div>
+            </div>
+            <div class="col l3 m6 s12">
+                <div class="new-box new-box-text">
+                    <div class="aesthetic-today-website"></div>
+                    <div class="bg">
+                        <!-- Replace broken URL with your hosted image or a working test link -->
+                        <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=500" alt="Aesthetic Today">
                     </div>
                 </div>
+            </div>
 
 
 
